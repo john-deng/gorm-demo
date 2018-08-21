@@ -122,16 +122,16 @@
   revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
 
 [[projects]]
-  branch = "master"
   name = "github.com/hidevopsio/gorm"
   packages = [".","dialects/mssql","dialects/mysql","dialects/postgres","dialects/sqlite"]
   revision = "7914960564b4f97f2adf6a87f437872aabdac7f2"
+  version = "v2.0.0"
 
 [[projects]]
   name = "github.com/hidevopsio/hiboot"
   packages = ["pkg/inject","pkg/log","pkg/model","pkg/starter","pkg/starter/data/gorm","pkg/starter/web","pkg/system","pkg/utils/copier","pkg/utils/crypto","pkg/utils/crypto/base64","pkg/utils/crypto/rsa","pkg/utils/gotest","pkg/utils/idgen","pkg/utils/io","pkg/utils/mapstruct","pkg/utils/reflector","pkg/utils/replacer","pkg/utils/str","pkg/utils/validator"]
-  revision = "f4ea28b2b6883163dbda51b49d06206431ada756"
-  version = "v0.3.0"
+  revision = "73ee22b9f313bc04822a738a5692af11d7539309"
+  version = "v0.3.1"
 
 [[projects]]
   name = "github.com/imdario/mergo"
@@ -419,19 +419,19 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["acme","acme/autocert","md4"]
-  revision = "aabede6cba87e37f413b3e60ebfc214f8eeca1b0"
+  revision = "614d502a4dac94afa3a6ce146bd1736da82514c6"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["html","html/atom","idna","publicsuffix"]
-  revision = "aaf60122140d3fcf75376d319f0554393160eb50"
+  revision = "922f4815f713f213882e8ef45e0d315b164d705c"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "1c9583448a9c3aa0f9a6a5241bf73c0bd8aafded"
+  revision = "4ea2f632f6e912459fe60b26b1749377f0d889d5"
 
 [[projects]]
   name = "golang.org/x/text"
